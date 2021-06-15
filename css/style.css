@@ -1,0 +1,251 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(223, 223, 223);
+}
+
+#topo {
+    background-color: rgb(151, 2, 2);
+    text-align: center;
+    padding: 20px;
+}
+
+#logo {
+    font-size: 40px;
+}
+
+#storm {
+    border-left: 3px solid white;
+    padding-left: 5px;
+    color: white;
+}
+
+#news {
+    background-color: white;
+    border-radius: 3px;
+    color: rgb(151, 2, 2);
+}
+
+#nav a{
+    color: white;
+    padding: 7px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(151, 2, 2);
+}
+
+#corpo {
+    width: 950px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#corpo h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+#areaprincipal {
+    width: 700px;
+    padding: 10px;
+    background-color: white;
+    float: left;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+.data {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.italic {
+    font-style: italic;
+    color: rgb(49, 49, 49);
+    font-size: 15px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.fonte {
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(134, 134, 134);
+}
+
+.button{
+    text-align: center;
+}
+
+.button a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(151, 2, 2);
+    border-radius: 6px;
+    padding: 8px 60px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button a:hover {
+    background-color: rgb(99, 2, 2);
+}
+
+#arealateral {
+    width: 200px;
+    background-color: white;
+    float: right;
+    padding: 5px;
+}
+
+#menu {
+    padding: 6px;
+}
+
+#menu a {
+    display: inline-block;
+    margin: 3px 0;
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    padding: 3px;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    color: white;
+    background-color: rgb(151, 2, 2);
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#menu h2, #redessociais h2 {
+    font-size: 21px;
+    color: white;
+    margin-bottom: 6px;
+    padding: 1px 0;
+    text-align: center;
+    background-color: rgb(151, 2, 2);
+}
+
+/*Específicos da página "contato.html"*/
+
+#areaprincipal .contato h2 {
+    font-size: 25px;
+}
+
+.contato form {
+    margin: 13px 13px;
+    font-size: 17px;
+}
+
+#displayblock {
+    display: block;
+}
+
+textarea {
+    resize: none;
+    
+    width: 300px;
+    height: 100px;
+}
+
+.obrigatorio {
+    color: red;
+}
+
+#submit {
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(151, 2, 2);
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+} /*"cursor: pointer;" = Define o input que possui a ID "submit" como um elemento do qual ao passar o mouse por cima mudará o cursor para uma mãozinha (como um link por exemplo)*/
+
+#submit:hover {
+    background-color: rgb(99, 2, 2);
+}
+
+#arealateralbaixa {
+    float: right;
+    clear: right;
+    background-color: white;
+    width: 190px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+#redes a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+#redessociais img {
+    width: 35px;
+    border-radius: 13px;
+    border: 1px solid rgb(180, 180, 180, 0.8);
+}
+
+#email, #insta, #whatsapp {
+    vertical-align: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+}
+
+#email:hover, #insta:hover, #whatsapp:hover {
+    color: black;
+}
+
+#observaçao {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#redes {
+    padding-top: 8px;
+}
+
+/*Específicos da página "sobre-nós.html"*/
+
+#historia h2 {
+    font-size: 25px;
+}
+
+#historia a {
+    text-decoration: none;
+    color: rgb(151, 2, 2);
+    font-weight: bold;
+}
+
+#historia a:hover {
+    color: rgb(73, 0, 0);
+    font-weight: bold;
+}
+
+#img {
+    text-align: center;
+}
+
+.divimg {
+    display: inline;
+}
+
+.divimg a img {
+    width: 230px;
+}
+
+.divimg a:hover img {
+    width: 226px;
+}
